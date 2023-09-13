@@ -9,6 +9,8 @@ nav{
     background-color:#e84118 ;
     padding: 10px 200px;
     border-bottom: 4px solid #401e63 ;
+    position: sticky;
+    top: 0;
 }
 nav ul{
     display: flex;
@@ -106,4 +108,32 @@ nav div{
     border-radius: 4px;
     margin: 0 10px;
     cursor: pointer;
+    text-align: center;
   }
+ 
+  
+  #single-items-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:50px;
+    grid-column-gap: 20px;
+    margin-top: 15px;
+   
+  }
+  .single-items{
+    height: 250px;
+    border-radius: 3px solid black;
+  }
+  .single-items img{
+    width: 90%;
+    height: 90%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .single-items:hover img{
+    transform: scale(1.1);
+    border-radius: 20px;
+  }
+ 
+  
