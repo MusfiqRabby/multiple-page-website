@@ -80,6 +80,7 @@ nav div{
   main{
     background-color: darkcyan;
     padding: 20px;
+    padding-bottom: 50px;
    
   }
   #main-section{
@@ -114,10 +115,11 @@ nav div{
   
   #single-items-parent{
     display: grid;
+    margin: 5px 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap:50px;
-    grid-column-gap: 20px;
-    margin-top: 15px;
+    
+    margin-top: 10px;
    
   }
   .single-items{
@@ -135,7 +137,11 @@ nav div{
     transform: scale(1.1);
     border-radius: 20px;
   }
- 
+
+ .single-items div {
+       color: white;
+       margin: 5px auto;
+ }
 
   /* ----previous-next-parent--- */
 
@@ -172,3 +178,58 @@ nav div{
      background-color: #04AA6D;
      color: white;
   }
+
+  /* ---footer-container--- */
+
+footer{
+  background-color: #5F1E69;
+  color: whitesmoke;
+}
+
+#footer-container{
+   width: 900px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-between;
+   grid-gap: 50px;
+}
+.footer-firstitem h3{
+  font-size: 25px;
+  padding: 30px;
+  margin-top: 20px;
+}
+.footer-firstitem:first-child p{
+  margin-bottom: 50px;
+}
+.footer-secondtitem h3{
+  font-size: 25px;
+  padding: 30px 0;
+  margin-top: 20px;
+}
+.footer-secondtitem a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.footer-secondtitem p{
+  margin-bottom: 10px;
+}
+.footer-thirditem div{
+   font-size: 25px;
+   padding: 30px 0;
+   margin-top: 20px;
+}
+.footer-thirditem div a{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  background-color: #1a1244;
+  padding: 10px;
+  border-radius: 5px;
+}
+.footer-thirditem p{
+  margin-bottom: 10px;
+}
+.footer-thirditem p:nth-child(3){
+  margin-bottom: 70px;
+}
