@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  /* navber code start  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#e84118 ;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401e63 ;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s ;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: chartreuse;
+    border-radius: 5px;
+}
+
+nav div{
+    color: white;
+    font-size: 20px;
+}
+
+/* navber code finished  */
+
+main{
+    background-color: darkcyan;
+    padding: 20px;
+    padding-bottom: 50px;
+   
+  }
+  #main-section{
+    width: 1100px;
+    margin: 0px auto;
+    padding: 50px 0;
+
+  }
+  #latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+  }
+  .latest-video-text{
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  .latest-pages{
+    color: whitesmoke;
+  }
+  .latest-pages span{
+    color: black;
+    background-color: antiquewhite;
+    border: 1px solid #8080805b;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+ 
+  
+  #single-items-parent{
+    display: grid;
+    margin: 5px 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:50px;
+    
+    margin-top: 10px;
+   
+  }
+  .single-items{
+    height: 250px;
+    border-radius: 3px solid black;
+  }
+  .single-items img{
+    width: 90%;
+    height: 90%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .single-items:hover img{
+    transform: scale(1.1);
+    border-radius: 20px;
+  }
+
+ .single-items div {
+       color: white;
+       margin: 5px auto;
+ }
+
+  /* ----previous-next-parent--- */
+
+  #previous-next-parent{
+          margin-top: 100px;
+          display: flex;
+          justify-content: space-between;
+  }
+  
+  #previous-next-parent h3 a{
+      background-color: darkgrey;
+      padding: 10px 25px;
+      border-radius: 5px ;
+      transition: 0.5s;
+  }
+
+  #previous-next-parent h3 a:hover{
+         background-color: rgb(207, 210, 212);
+  }
+
+  #previous-next-parent a{
+    text-decoration: none;
+     color: aliceblue;
+  }
+  #previous-next-parent div a{
+    margin: 0 10px;
+    background-color: rgb(240, 233, 224);
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(145, 138, 138);
+  }
+  #previous-next-parent div a:first-child{
+     background-color: #04AA6D;
+     color: white;
+  }
